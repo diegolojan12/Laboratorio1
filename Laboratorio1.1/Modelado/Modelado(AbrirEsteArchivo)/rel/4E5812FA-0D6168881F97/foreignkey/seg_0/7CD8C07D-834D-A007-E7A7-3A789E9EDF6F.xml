@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7CD8C07D-834D-A007-E7A7-3A789E9EDF6F" containerWithKeyObject="D4AFAB82-4A0F-A1B3-68F4-EDF5A4B0A27B" localFKIndex="A55E7B46-7144-DDDE-12F4-399C9D2CA7DD" name="Asignacion_Perifericos_FK">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:09:51 UTC</createdTime>
+<generatorID>0969DBBD-2064-361C-766E-D77FF70B4E94</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<referredTableLongName>Perifericos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1CF53F8B-A130-DCC2-8F3A-66DEAA9F818F</referredTableID>
+<keyObject>ED57F9DF-711A-C62E-0F64-6C3052FE6CBA</keyObject>
+<referredKeyID>ED57F9DF-711A-C62E-0F64-6C3052FE6CBA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>per_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

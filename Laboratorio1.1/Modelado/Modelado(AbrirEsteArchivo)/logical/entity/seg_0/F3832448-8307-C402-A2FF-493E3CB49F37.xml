@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3832448-8307-C402-A2FF-493E3CB49F37" name="Departamentos">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 14:56:42 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>dep</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dep_id" id="621D9CD0-B0C2-12B2-CB42-105AD62F8A9F">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 14:56:48 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dep_nombre" id="07415AA8-172C-8AC3-56F0-F20E3652D6D4">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 14:56:52 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4DC248FC-E57A-D31C-EEA0-F81F0B1C9EE3" name="Departamento PK">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 14:57:11 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>621D9CD0-B0C2-12B2-CB42-105AD62F8A9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

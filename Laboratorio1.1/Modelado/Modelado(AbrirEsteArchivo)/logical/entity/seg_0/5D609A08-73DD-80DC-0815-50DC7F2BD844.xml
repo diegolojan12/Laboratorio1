@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D609A08-73DD-80DC-0815-50DC7F2BD844" name="Encargados">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 14:25:43 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>encrd</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="encrd_id" id="F4A81CFE-F0C3-752E-855B-FDB4867D6F86">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 14:25:56 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="encrd_nombre" id="52A723AB-5042-2362-2678-004CD8E7A378">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 14:27:19 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dep_id" id="1D56BB17-3B01-AA06-BDCB-39AD94DE312D">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 14:57:38 UTC</createdTime>
+<generatorID>9ECFF61D-AF43-F93E-60B8-305F8DE5E979</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<referedAttribute>621D9CD0-B0C2-12B2-CB42-105AD62F8A9F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6228ECF-90D9-8774-8EEB-9EC77C3FA86E" name="Encargado PK">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 14:27:17 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F4A81CFE-F0C3-752E-855B-FDB4867D6F86</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

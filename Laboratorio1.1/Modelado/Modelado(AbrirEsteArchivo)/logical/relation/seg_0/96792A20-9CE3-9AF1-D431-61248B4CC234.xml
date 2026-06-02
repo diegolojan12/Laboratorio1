@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Alberga" directorySegmentName="seg_0" id="96792A20-9CE3-9AF1-D431-61248B4CC234">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:03:51 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<sourcePk>8B2C3161-606A-D65C-7DCC-E5796E13BC73</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0946F897-6A7F-13F9-364E-462C1E197B97</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B866FC30-D2C9-A76F-3607-059628921FF1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

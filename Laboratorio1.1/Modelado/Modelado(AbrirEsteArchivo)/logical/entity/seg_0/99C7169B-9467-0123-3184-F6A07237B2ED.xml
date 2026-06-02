@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99C7169B-9467-0123-3184-F6A07237B2ED" name="Softwares">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:19:50 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>soft</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="soft_id" id="25E35A98-40A4-B8CB-DE28-F24F5D3DAEAB">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:20:06 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_programa" id="FEFECA48-F7FD-7080-A188-93D9DAEB5714">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:20:16 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_licencia" id="520A9D22-210D-D433-8940-866DE3F83350">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:20:53 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="300F6577-BB38-9472-8351-A0F634AB0634" name="Softwares PK">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:20:44 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25E35A98-40A4-B8CB-DE28-F24F5D3DAEAB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

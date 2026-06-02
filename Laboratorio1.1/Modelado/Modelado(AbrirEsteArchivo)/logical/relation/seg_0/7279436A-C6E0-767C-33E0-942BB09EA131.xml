@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Suministra" directorySegmentName="seg_0" id="7279436A-C6E0-767C-33E0-942BB09EA131">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 14:47:08 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<sourcePk>7795B317-6144-9AAD-FC82-EFFB81793486</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>095051CC-191D-51B8-7987-4C0CDE45D971</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B866FC30-D2C9-A76F-3607-059628921FF1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

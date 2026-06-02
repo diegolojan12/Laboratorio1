@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Asignaciones" directorySegmentName="seg_0" id="0969DBBD-2064-361C-766E-D77FF70B4E94">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 14:33:36 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<sourcePk>F6228ECF-90D9-8774-8EEB-9EC77C3FA86E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5D609A08-73DD-80DC-0815-50DC7F2BD844</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B866FC30-D2C9-A76F-3607-059628921FF1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fecha_asignacion" id="B56849AB-94BF-CEBD-53A6-FBE71B21B78C">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 14:33:45 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="fecha_retiro" id="299BF8DF-ABE3-55BC-18D7-32877270BBA3">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 14:38:33 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

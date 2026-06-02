@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="533D6678-E9EF-EFD5-CD1C-470BFEEC6164" containerWithKeyObject="D4AFAB82-4A0F-A1B3-68F4-EDF5A4B0A27B" localFKIndex="F6EAD053-5A55-E815-78A4-C860D06F5D3D" name="Asignacion_Encargados_FK">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:09:51 UTC</createdTime>
+<generatorID>0969DBBD-2064-361C-766E-D77FF70B4E94</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<referredTableLongName>Encargados</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E55547DB-B356-BA3C-574A-6555702C7DA4</referredTableID>
+<keyObject>4F5FCDA1-47B1-2C96-5938-E4087F701147</keyObject>
+<referredKeyID>4F5FCDA1-47B1-2C96-5938-E4087F701147</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>encrd_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

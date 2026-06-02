@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A484374-AA44-049B-D299-2AF496510E75" name="Softwares">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:22:28 UTC</createdTime>
+<generatorID>99C7169B-9467-0123-3184-F6A07237B2ED</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<abbreviation>soft</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="soft_id" id="3A2CA70C-77C9-9257-3414-959627A02100">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:22:28 UTC</createdTime>
+<generatorID>25E35A98-40A4-B8CB-DE28-F24F5D3DAEAB</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_programa" id="B857D08F-7B46-DFF8-978D-451B070E34BB">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:22:28 UTC</createdTime>
+<generatorID>FEFECA48-F7FD-7080-A188-93D9DAEB5714</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_licencia" id="FEA7C70E-E54D-F686-95A0-9BAB06A441E9">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:22:28 UTC</createdTime>
+<generatorID>520A9D22-210D-D433-8940-866DE3F83350</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0C81FE5-6A8B-6614-D8B7-930085C1E2B0" name="Softwares_PK">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:22:28 UTC</createdTime>
+<generatorID>300F6577-BB38-9472-8351-A0F634AB0634</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A2CA70C-77C9-9257-3414-959627A02100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

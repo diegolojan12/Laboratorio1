@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4AFAB82-4A0F-A1B3-68F4-EDF5A4B0A27B" name="Asignaciones">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:09:51 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<ordsAlias>asignacion</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Encargados_encrd_id" id="61BB9B46-144D-DC83-1824-2834961109F6">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:09:51 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="533D6678-E9EF-EFD5-CD1C-470BFEEC6164" referredColumn="EE5CB0A2-01AB-F18F-AE45-0D3C744F6B1E"/>
+</associations>
+</Column>
+<Column name="Perifericos_per_id" id="C7BFB4A1-B19D-4595-8DB6-7DFD9F4A13CE">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:09:51 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CD8C07D-834D-A007-E7A7-3A789E9EDF6F" referredColumn="382DE66B-82B6-BA16-A218-EF78BC52F240"/>
+</associations>
+</Column>
+<Column name="fecha_asignacion" id="3624DF72-EE23-0AAF-1573-CA7154953DEE">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:09:51 UTC</createdTime>
+<generatorID>B56849AB-94BF-CEBD-53A6-FBE71B21B78C</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="fecha_retiro" id="BC0DB23B-5324-A8AA-449D-7553D38FD6D2">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:09:51 UTC</createdTime>
+<generatorID>299BF8DF-ABE3-55BC-18D7-32877270BBA3</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26807726-ADA9-D4B1-EEC2-CF53035F72CB" name="Asignacion_PK">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:09:51 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61BB9B46-144D-DC83-1824-2834961109F6"/>
+<colUsage columnID="C7BFB4A1-B19D-4595-8DB6-7DFD9F4A13CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6EAD053-5A55-E815-78A4-C860D06F5D3D" name="Asignacion_Encargados_FK">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:09:51 UTC</createdTime>
+<generatorID>0969DBBD-2064-361C-766E-D77FF70B4E94</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61BB9B46-144D-DC83-1824-2834961109F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A55E7B46-7144-DDDE-12F4-399C9D2CA7DD" name="Asignacion_Perifericos_FK">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:09:51 UTC</createdTime>
+<generatorID>0969DBBD-2064-361C-766E-D77FF70B4E94</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7BFB4A1-B19D-4595-8DB6-7DFD9F4A13CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

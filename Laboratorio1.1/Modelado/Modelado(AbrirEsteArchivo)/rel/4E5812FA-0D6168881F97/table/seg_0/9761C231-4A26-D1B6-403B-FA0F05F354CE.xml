@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9761C231-4A26-D1B6-403B-FA0F05F354CE" name="Instalaciones">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:22:28 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Softwares_soft_id" id="2A5FBE49-3EAB-0EF8-A1AC-BDA4DF64C6F3">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:22:28 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04FCA874-AF61-D243-0F61-117798561457" referredColumn="3A2CA70C-77C9-9257-3414-959627A02100"/>
+</associations>
+</Column>
+<Column name="Perifericos_per_id" id="BDFE248D-B183-C171-BAAF-31A72548786B">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:22:28 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C414FE72-9CD1-01A6-665C-A45D60F00B8A" referredColumn="382DE66B-82B6-BA16-A218-EF78BC52F240"/>
+</associations>
+</Column>
+<Column name="fecha_instalacion" id="0DA0FC32-4978-F8DB-2D60-BF2A96B7DA6F">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:22:28 UTC</createdTime>
+<generatorID>34A741AF-1DF4-B9F0-9F3F-2BBFDCFED41C</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="inst_clave" id="7DED0297-B5E4-5EC5-1652-DB9D5168A852">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:22:28 UTC</createdTime>
+<generatorID>446203D1-2256-82E9-6091-42E42E0B4ECB</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8F121DF-0D2B-C55F-4ECE-25D36F5AB632" name="Instalaciones_PK">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:22:28 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A5FBE49-3EAB-0EF8-A1AC-BDA4DF64C6F3"/>
+<colUsage columnID="BDFE248D-B183-C171-BAAF-31A72548786B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20182FBB-6A78-CC9B-7EBF-B5F7839F6335" name="Instalaciones_Softwares_FK">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:22:28 UTC</createdTime>
+<generatorID>82088666-D187-26FB-7CBB-B8CFC5A48335</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A5FBE49-3EAB-0EF8-A1AC-BDA4DF64C6F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="250AFB4C-BBAF-5424-5DAC-F26328161D18" name="Instalaciones_Perifericos_FK">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:22:28 UTC</createdTime>
+<generatorID>82088666-D187-26FB-7CBB-B8CFC5A48335</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDFE248D-B183-C171-BAAF-31A72548786B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

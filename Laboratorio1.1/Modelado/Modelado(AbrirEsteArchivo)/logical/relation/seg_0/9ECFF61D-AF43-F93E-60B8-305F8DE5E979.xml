@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Agrupa" directorySegmentName="seg_0" id="9ECFF61D-AF43-F93E-60B8-305F8DE5E979">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 14:57:38 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<sourcePk>4DC248FC-E57A-D31C-EEA0-F81F0B1C9EE3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F3832448-8307-C402-A2FF-493E3CB49F37</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5D609A08-73DD-80DC-0815-50DC7F2BD844</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

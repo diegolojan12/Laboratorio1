@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Clasifica" directorySegmentName="seg_0" id="869651B6-3F23-F3A8-919F-6C575514D2C4">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:06:17 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<sourcePk>389F8CDF-A8B4-D0B6-B121-211388AA3FF1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>14757FB7-6D81-1155-804E-8DF39E3A6C80</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B866FC30-D2C9-A76F-3607-059628921FF1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

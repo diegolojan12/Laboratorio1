@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E55547DB-B356-BA3C-574A-6555702C7DA4" name="Encargados">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:09:51 UTC</createdTime>
+<generatorID>5D609A08-73DD-80DC-0815-50DC7F2BD844</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<abbreviation>encrd</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="encrd_id" id="EE5CB0A2-01AB-F18F-AE45-0D3C744F6B1E">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:09:51 UTC</createdTime>
+<generatorID>F4A81CFE-F0C3-752E-855B-FDB4867D6F86</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="encrd_nombre" id="E0744BB7-F2D8-E1DE-CD08-2D61EB56C957">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:09:51 UTC</createdTime>
+<generatorID>52A723AB-5042-2362-2678-004CD8E7A378</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamentos_dep_id" id="7329AAB1-3CC6-8CE1-90F5-9E07A89A3E6E">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:09:51 UTC</createdTime>
+<generatorID>1D56BB17-3B01-AA06-BDCB-39AD94DE312D</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F5BBA66-E335-E46C-9F0E-15A045C6BCF8" referredColumn="1FDFC5AC-1A8C-1C9E-6293-6CD91B49C6DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F5FCDA1-47B1-2C96-5938-E4087F701147" name="Encargados_PK">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:09:51 UTC</createdTime>
+<generatorID>F6228ECF-90D9-8774-8EEB-9EC77C3FA86E</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE5CB0A2-01AB-F18F-AE45-0D3C744F6B1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34888B72-9F8E-CABF-ED10-356510B224FF" name="Encargados_Departamentos_FK">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:09:51 UTC</createdTime>
+<generatorID>9ECFF61D-AF43-F93E-60B8-305F8DE5E979</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7329AAB1-3CC6-8CE1-90F5-9E07A89A3E6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

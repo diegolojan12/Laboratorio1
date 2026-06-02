@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="04FCA874-AF61-D243-0F61-117798561457" containerWithKeyObject="9761C231-4A26-D1B6-403B-FA0F05F354CE" localFKIndex="20182FBB-6A78-CC9B-7EBF-B5F7839F6335" name="Instalaciones_Softwares_FK">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:22:28 UTC</createdTime>
+<generatorID>82088666-D187-26FB-7CBB-B8CFC5A48335</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<referredTableLongName>Softwares</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2A484374-AA44-049B-D299-2AF496510E75</referredTableID>
+<keyObject>A0C81FE5-6A8B-6614-D8B7-930085C1E2B0</keyObject>
+<referredKeyID>A0C81FE5-6A8B-6614-D8B7-930085C1E2B0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>soft_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

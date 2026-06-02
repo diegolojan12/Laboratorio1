@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Instalaciones" directorySegmentName="seg_0" id="82088666-D187-26FB-7CBB-B8CFC5A48335">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:21:24 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>99C7169B-9467-0123-3184-F6A07237B2ED</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B866FC30-D2C9-A76F-3607-059628921FF1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fecha_instalacion" id="34A741AF-1DF4-B9F0-9F3F-2BBFDCFED41C">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:21:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="inst_clave" id="446203D1-2256-82E9-6091-42E42E0B4ECB">
+<createdBy>dbast</createdBy>
+<createdTime>2026-05-22 15:21:45 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="4E5812FA-17E4-C529-5C00-0D6168881F97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
